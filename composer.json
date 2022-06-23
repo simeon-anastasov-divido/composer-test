@@ -13,5 +13,11 @@
       "type": "vcs",
       "url": "git@github.com:simeon-anastasov-divido/composer-test.git"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": {
+      "Soulshards\\Base\\": "src/libs"
+    }
+  }
+
 }
