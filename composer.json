@@ -1,0 +1,17 @@
+{
+  "name": "soulshards/composer-test",
+  "type": "library",
+  "description": "",
+  "authors": [
+    {
+      "name": "Simeon Anastasov",
+      "email": "simeon.anastasov@divido.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:simeon-anastasov-divido/composer-test.git"
+    }
+  ]
+}
