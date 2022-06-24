@@ -18,6 +18,10 @@
     "psr-4": {
       "Soulshards\\Base\\": "src/libs"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "phpstan/phpstan": "*"
   }
 
 }
