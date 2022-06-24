@@ -9,6 +9,9 @@ dev:
 composer-update:
 	docker run --rm -v $(PWD):/app punit:latest  composer update
 
+composer-dump:
+	docker run --rm -v $(PWD):/app punit:latest  composer dump-autoload
+
 test:
 	docker run -it --rm -v $(PWD):/app punit:latest  ./vendor/bin/phpunit --coverage-html ./app/ 
 

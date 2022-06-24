@@ -21,7 +21,7 @@ final class StackTest extends TestCase
     /**
      * Tests whether the Soulshards class is working correctly
      *
-     * @covers Soulshards\Base\Soulshards
+     * 
      * 
      * @return void
      */
